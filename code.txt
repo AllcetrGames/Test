@@ -1,0 +1,3 @@
+print("Hi guys, im good boy!")
+a = 5**2
+print("Yes" if a+a == 50 else "No")
