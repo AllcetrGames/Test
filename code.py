@@ -1,0 +1,6 @@
+def fib(num):
+    if num == 0 or num == 1:
+        return num
+    return fib(num - 1) + fib(num - 2)
+for i in range(100):
+    print(" | " * fib(i), end="\n")
