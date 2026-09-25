@@ -3,4 +3,4 @@ def fib(num):
         return num
     return fib(num - 1) + fib(num - 2)
 for i in range(100):
-    print(" | " * fib(i), end="\n")
+    print(fib(i))
